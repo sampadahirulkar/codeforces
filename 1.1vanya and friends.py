@@ -16,9 +16,7 @@ Print a single integer — the minimum possible valid width of the road.
 
 
 
-n,h = input().split()
-n=int(n)
-h=int(h)
+n,h = map(int,input().split())
 a = list(map(int,input().split()))
 width = 0
 for i in range(n):
